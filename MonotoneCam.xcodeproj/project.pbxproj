@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		458380062B5757EA0003C5CB /* MonotoneCamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458380052B5757EA0003C5CB /* MonotoneCamApp.swift */; };
+		458380082B5757EA0003C5CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458380072B5757EA0003C5CB /* ContentView.swift */; };
+		4583800A2B5757EB0003C5CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 458380092B5757EB0003C5CB /* Assets.xcassets */; };
+		4583800D2B5757EB0003C5CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4583800C2B5757EB0003C5CB /* Preview Assets.xcassets */; };
+		458380172B5757EB0003C5CB /* MonotoneCamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458380162B5757EB0003C5CB /* MonotoneCamTests.swift */; };
+		458380212B5757EB0003C5CB /* MonotoneCamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458380202B5757EB0003C5CB /* MonotoneCamUITests.swift */; };
+		458380232B5757EB0003C5CB /* MonotoneCamUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458380222B5757EB0003C5CB /* MonotoneCamUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		458380132B5757EB0003C5CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45837FFA2B5757EA0003C5CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 458380012B5757EA0003C5CB;
+			remoteInfo = MonotoneCam;
+		};
+		4583801D2B5757EB0003C5CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45837FFA2B5757EA0003C5CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 458380012B5757EA0003C5CB;
+			remoteInfo = MonotoneCam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		458380022B5757EA0003C5CB /* MonotoneCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonotoneCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		458380052B5757EA0003C5CB /* MonotoneCamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonotoneCamApp.swift; sourceTree = "<group>"; };
+		458380072B5757EA0003C5CB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		458380092B5757EB0003C5CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4583800C2B5757EB0003C5CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		458380122B5757EB0003C5CB /* MonotoneCamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonotoneCamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		458380162B5757EB0003C5CB /* MonotoneCamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonotoneCamTests.swift; sourceTree = "<group>"; };
+		4583801C2B5757EB0003C5CB /* MonotoneCamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonotoneCamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		458380202B5757EB0003C5CB /* MonotoneCamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonotoneCamUITests.swift; sourceTree = "<group>"; };
+		458380222B5757EB0003C5CB /* MonotoneCamUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonotoneCamUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45837FFF2B5757EA0003C5CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4583800F2B5757EB0003C5CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		458380192B5757EB0003C5CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45837FF92B5757EA0003C5CB = {
+			isa = PBXGroup;
+			children = (
+				458380042B5757EA0003C5CB /* MonotoneCam */,
+				458380152B5757EB0003C5CB /* MonotoneCamTests */,
+				4583801F2B5757EB0003C5CB /* MonotoneCamUITests */,
+				458380032B5757EA0003C5CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		458380032B5757EA0003C5CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				458380022B5757EA0003C5CB /* MonotoneCam.app */,
+				458380122B5757EB0003C5CB /* MonotoneCamTests.xctest */,
+				4583801C2B5757EB0003C5CB /* MonotoneCamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		458380042B5757EA0003C5CB /* MonotoneCam */ = {
+			isa = PBXGroup;
+			children = (
+				458380052B5757EA0003C5CB /* MonotoneCamApp.swift */,
+				458380072B5757EA0003C5CB /* ContentView.swift */,
+				458380092B5757EB0003C5CB /* Assets.xcassets */,
+				4583800B2B5757EB0003C5CB /* Preview Content */,
+			);
+			path = MonotoneCam;
+			sourceTree = "<group>";
+		};
+		4583800B2B5757EB0003C5CB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4583800C2B5757EB0003C5CB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		458380152B5757EB0003C5CB /* MonotoneCamTests */ = {
+			isa = PBXGroup;
+			children = (
+				458380162B5757EB0003C5CB /* MonotoneCamTests.swift */,
+			);
+			path = MonotoneCamTests;
+			sourceTree = "<group>";
+		};
+		4583801F2B5757EB0003C5CB /* MonotoneCamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				458380202B5757EB0003C5CB /* MonotoneCamUITests.swift */,
+				458380222B5757EB0003C5CB /* MonotoneCamUITestsLaunchTests.swift */,
+			);
+			path = MonotoneCamUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		458380012B5757EA0003C5CB /* MonotoneCam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 458380262B5757EB0003C5CB /* Build configuration list for PBXNativeTarget "MonotoneCam" */;
+			buildPhases = (
+				45837FFE2B5757EA0003C5CB /* Sources */,
+				45837FFF2B5757EA0003C5CB /* Frameworks */,
+				458380002B5757EA0003C5CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MonotoneCam;
+			productName = MonotoneCam;
+			productReference = 458380022B5757EA0003C5CB /* MonotoneCam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		458380112B5757EB0003C5CB /* MonotoneCamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 458380292B5757EB0003C5CB /* Build configuration list for PBXNativeTarget "MonotoneCamTests" */;
+			buildPhases = (
+				4583800E2B5757EB0003C5CB /* Sources */,
+				4583800F2B5757EB0003C5CB /* Frameworks */,
+				458380102B5757EB0003C5CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				458380142B5757EB0003C5CB /* PBXTargetDependency */,
+			);
+			name = MonotoneCamTests;
+			productName = MonotoneCamTests;
+			productReference = 458380122B5757EB0003C5CB /* MonotoneCamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4583801B2B5757EB0003C5CB /* MonotoneCamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4583802C2B5757EB0003C5CB /* Build configuration list for PBXNativeTarget "MonotoneCamUITests" */;
+			buildPhases = (
+				458380182B5757EB0003C5CB /* Sources */,
+				458380192B5757EB0003C5CB /* Frameworks */,
+				4583801A2B5757EB0003C5CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4583801E2B5757EB0003C5CB /* PBXTargetDependency */,
+			);
+			name = MonotoneCamUITests;
+			productName = MonotoneCamUITests;
+			productReference = 4583801C2B5757EB0003C5CB /* MonotoneCamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45837FFA2B5757EA0003C5CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					458380012B5757EA0003C5CB = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					458380112B5757EB0003C5CB = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 458380012B5757EA0003C5CB;
+					};
+					4583801B2B5757EB0003C5CB = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 458380012B5757EA0003C5CB;
+					};
+				};
+			};
+			buildConfigurationList = 45837FFD2B5757EA0003C5CB /* Build configuration list for PBXProject "MonotoneCam" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45837FF92B5757EA0003C5CB;
+			productRefGroup = 458380032B5757EA0003C5CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				458380012B5757EA0003C5CB /* MonotoneCam */,
+				458380112B5757EB0003C5CB /* MonotoneCamTests */,
+				4583801B2B5757EB0003C5CB /* MonotoneCamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		458380002B5757EA0003C5CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4583800D2B5757EB0003C5CB /* Preview Assets.xcassets in Resources */,
+				4583800A2B5757EB0003C5CB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		458380102B5757EB0003C5CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4583801A2B5757EB0003C5CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45837FFE2B5757EA0003C5CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				458380082B5757EA0003C5CB /* ContentView.swift in Sources */,
+				458380062B5757EA0003C5CB /* MonotoneCamApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4583800E2B5757EB0003C5CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				458380172B5757EB0003C5CB /* MonotoneCamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		458380182B5757EB0003C5CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				458380212B5757EB0003C5CB /* MonotoneCamUITests.swift in Sources */,
+				458380232B5757EB0003C5CB /* MonotoneCamUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		458380142B5757EB0003C5CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 458380012B5757EA0003C5CB /* MonotoneCam */;
+			targetProxy = 458380132B5757EB0003C5CB /* PBXContainerItemProxy */;
+		};
+		4583801E2B5757EB0003C5CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 458380012B5757EA0003C5CB /* MonotoneCam */;
+			targetProxy = 4583801D2B5757EB0003C5CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		458380242B5757EB0003C5CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		458380252B5757EB0003C5CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		458380272B5757EB0003C5CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MonotoneCam/Preview Content\"";
+				DEVELOPMENT_TEAM = 3VB5545XX2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.MonotoneCam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		458380282B5757EB0003C5CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MonotoneCam/Preview Content\"";
+				DEVELOPMENT_TEAM = 3VB5545XX2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.MonotoneCam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4583802A2B5757EB0003C5CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3VB5545XX2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.MonotoneCamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonotoneCam.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MonotoneCam";
+			};
+			name = Debug;
+		};
+		4583802B2B5757EB0003C5CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3VB5545XX2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.MonotoneCamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonotoneCam.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MonotoneCam";
+			};
+			name = Release;
+		};
+		4583802D2B5757EB0003C5CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3VB5545XX2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.MonotoneCamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MonotoneCam;
+			};
+			name = Debug;
+		};
+		4583802E2B5757EB0003C5CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3VB5545XX2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.MonotoneCamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MonotoneCam;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45837FFD2B5757EA0003C5CB /* Build configuration list for PBXProject "MonotoneCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				458380242B5757EB0003C5CB /* Debug */,
+				458380252B5757EB0003C5CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		458380262B5757EB0003C5CB /* Build configuration list for PBXNativeTarget "MonotoneCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				458380272B5757EB0003C5CB /* Debug */,
+				458380282B5757EB0003C5CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		458380292B5757EB0003C5CB /* Build configuration list for PBXNativeTarget "MonotoneCamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4583802A2B5757EB0003C5CB /* Debug */,
+				4583802B2B5757EB0003C5CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4583802C2B5757EB0003C5CB /* Build configuration list for PBXNativeTarget "MonotoneCamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4583802D2B5757EB0003C5CB /* Debug */,
+				4583802E2B5757EB0003C5CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45837FFA2B5757EA0003C5CB /* Project object */;
+}
