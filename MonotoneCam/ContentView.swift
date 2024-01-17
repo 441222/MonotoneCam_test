@@ -1,21 +1,11 @@
-//
-//  ContentView.swift
-//  MonotoneCam
-//
-//  Created by ootani yoshiyuki on 2024/01/17.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var cameraViewModel = CameraViewModel()
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+        CameraView()
+            .environmentObject(cameraViewModel)
     }
 }
 

@@ -11,9 +11,8 @@
 		458380082B5757EA0003C5CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458380072B5757EA0003C5CB /* ContentView.swift */; };
 		4583800A2B5757EB0003C5CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 458380092B5757EB0003C5CB /* Assets.xcassets */; };
 		4583800D2B5757EB0003C5CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4583800C2B5757EB0003C5CB /* Preview Assets.xcassets */; };
-		458380172B5757EB0003C5CB /* MonotoneCamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458380162B5757EB0003C5CB /* MonotoneCamTests.swift */; };
-		458380212B5757EB0003C5CB /* MonotoneCamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458380202B5757EB0003C5CB /* MonotoneCamUITests.swift */; };
-		458380232B5757EB0003C5CB /* MonotoneCamUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458380222B5757EB0003C5CB /* MonotoneCamUITestsLaunchTests.swift */; };
+		45E7C4E32B576A7A0051AEDA /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E7C4E22B576A7A0051AEDA /* CameraView.swift */; };
+		45E7C4E52B576AB30051AEDA /* CameraViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E7C4E42B576AB30051AEDA /* CameraViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,11 +39,10 @@
 		458380092B5757EB0003C5CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4583800C2B5757EB0003C5CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		458380122B5757EB0003C5CB /* MonotoneCamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonotoneCamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		458380162B5757EB0003C5CB /* MonotoneCamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonotoneCamTests.swift; sourceTree = "<group>"; };
 		4583801C2B5757EB0003C5CB /* MonotoneCamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonotoneCamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		458380202B5757EB0003C5CB /* MonotoneCamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonotoneCamUITests.swift; sourceTree = "<group>"; };
-		458380222B5757EB0003C5CB /* MonotoneCamUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonotoneCamUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4583802F2B57590D0003C5CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		45E7C4E22B576A7A0051AEDA /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		45E7C4E42B576AB30051AEDA /* CameraViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				458380042B5757EA0003C5CB /* MonotoneCam */,
-				458380152B5757EB0003C5CB /* MonotoneCamTests */,
-				4583801F2B5757EB0003C5CB /* MonotoneCamUITests */,
 				458380032B5757EA0003C5CB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,6 +94,8 @@
 				4583802F2B57590D0003C5CB /* Info.plist */,
 				458380052B5757EA0003C5CB /* MonotoneCamApp.swift */,
 				458380072B5757EA0003C5CB /* ContentView.swift */,
+				45E7C4E22B576A7A0051AEDA /* CameraView.swift */,
+				45E7C4E42B576AB30051AEDA /* CameraViewModel.swift */,
 				458380092B5757EB0003C5CB /* Assets.xcassets */,
 				4583800B2B5757EB0003C5CB /* Preview Content */,
 			);
@@ -110,23 +108,6 @@
 				4583800C2B5757EB0003C5CB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		458380152B5757EB0003C5CB /* MonotoneCamTests */ = {
-			isa = PBXGroup;
-			children = (
-				458380162B5757EB0003C5CB /* MonotoneCamTests.swift */,
-			);
-			path = MonotoneCamTests;
-			sourceTree = "<group>";
-		};
-		4583801F2B5757EB0003C5CB /* MonotoneCamUITests */ = {
-			isa = PBXGroup;
-			children = (
-				458380202B5757EB0003C5CB /* MonotoneCamUITests.swift */,
-				458380222B5757EB0003C5CB /* MonotoneCamUITestsLaunchTests.swift */,
-			);
-			path = MonotoneCamUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +240,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45E7C4E32B576A7A0051AEDA /* CameraView.swift in Sources */,
+				45E7C4E52B576AB30051AEDA /* CameraViewModel.swift in Sources */,
 				458380082B5757EA0003C5CB /* ContentView.swift in Sources */,
 				458380062B5757EA0003C5CB /* MonotoneCamApp.swift in Sources */,
 			);
@@ -268,7 +251,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				458380172B5757EB0003C5CB /* MonotoneCamTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +258,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				458380212B5757EB0003C5CB /* MonotoneCamUITests.swift in Sources */,
-				458380232B5757EB0003C5CB /* MonotoneCamUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,6 +403,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MonotoneCam/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MonotoneCam;
 				INFOPLIST_KEY_NSCameraUsageDescription = "アプリに表示・使用するための写真や動画を撮影する目的でリクエストします。";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "アプリに表示・使用するための写真や動画をライブラリから選択する目的でリクエストします。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -455,6 +436,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MonotoneCam/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MonotoneCam;
 				INFOPLIST_KEY_NSCameraUsageDescription = "アプリに表示・使用するための写真や動画を撮影する目的でリクエストします。";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "アプリに表示・使用するための写真や動画をライブラリから選択する目的でリクエストします。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
