@@ -44,6 +44,7 @@
 		4583801C2B5757EB0003C5CB /* MonotoneCamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonotoneCamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		458380202B5757EB0003C5CB /* MonotoneCamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonotoneCamUITests.swift; sourceTree = "<group>"; };
 		458380222B5757EB0003C5CB /* MonotoneCamUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonotoneCamUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4583802F2B57590D0003C5CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +95,7 @@
 		458380042B5757EA0003C5CB /* MonotoneCam */ = {
 			isa = PBXGroup;
 			children = (
+				4583802F2B57590D0003C5CB /* Info.plist */,
 				458380052B5757EA0003C5CB /* MonotoneCamApp.swift */,
 				458380072B5757EA0003C5CB /* ContentView.swift */,
 				458380092B5757EB0003C5CB /* Assets.xcassets */,
@@ -420,6 +422,9 @@
 				DEVELOPMENT_TEAM = 3VB5545XX2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MonotoneCam/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "アプリに表示・使用するための写真や動画を撮影する目的でリクエストします。";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "アプリに表示・使用するための写真や動画をライブラリから選択する目的でリクエストします。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +454,9 @@
 				DEVELOPMENT_TEAM = 3VB5545XX2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MonotoneCam/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "アプリに表示・使用するための写真や動画を撮影する目的でリクエストします。";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "アプリに表示・使用するための写真や動画をライブラリから選択する目的でリクエストします。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
