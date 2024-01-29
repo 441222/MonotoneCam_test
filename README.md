@@ -1,40 +1,38 @@
 # MonotoneCamApp
 
-MonotoneCamApp is a simple, elegant iOS camera application developed using SwiftUI. It's designed to capture photos and automatically apply a monochrome filter, offering users a unique and artistic take on their photographs.
+MonotoneCamApp is an iOS application developed using SwiftUI, designed to capture and process photos in monochrome. This simple yet powerful app allows users to take artistic monochrome photographs with their iOS device (iPhone or iPad) and save them directly to the camera roll.
 
 ## Features
 
-- **Camera Preview**: Provides a live camera feed, allowing users to frame their shots before capturing.
-- **Countdown Timer**: Initiates a 3-second countdown upon pressing the capture button, enhancing the photo-taking experience.
-- **Monochrome Processing**: Automatically applies a monochromatic filter to the captured photo.
-- **Photo Preview**: Offers a preview of the final monochrome photo before saving it to the photo library.
+1. **Real-Time Camera Preview**: Upon launching the app, users are presented with a live camera view, enabling them to frame their shots perfectly.
+2. **Countdown Timer and Capture**: Features a shutter button that, when pressed, initiates a 3-second countdown followed by the automatic capture of a photo.
+3. **Monochrome Photo Processing**: Automatically applies a monochrome filter to the captured photo, creating a unique aesthetic.
+4. **Photo Saving**: The processed monochrome photo is saved directly to the device's camera roll.
+5. **Photo Preview and Exit**: After a photo is captured, users can preview the monochrome photo and use an exit button to return to the main camera view.
+
+## Screen Layout
+
+The app consists of two main screens:
+1. **Camera View Screen**: The primary screen after launching the app. It displays the camera's live preview and a shutter button. Pressing the shutter button leads to a 3-second countdown and then transitions to the photo preview screen.
+2. **Photo Preview Screen**: Displays the captured monochrome photo and an exit button, which returns the user to the Camera View Screen.
 
 ## Setup
 
-This project is developed with SwiftUI and can be built and run using Xcode on iOS devices.
+This project is developed with SwiftUI and requires Xcode 14.0 or later for building and running on iOS devices.
 
 1. Clone the repository to your local machine.
-2. Open `MonotoneCamApp.xcodeproj` with Xcode.
+2. Open `MonotoneCamApp.xcodeproj` with Xcode 14.0 or later.
 3. Build and run the application on your iOS device.
 
 ## Usage
 
-Upon launching the app, you'll be presented with a camera preview. Tap the camera button at the bottom of the screen to start a 3-second countdown. The app will automatically capture a photo after the countdown, apply a monochrome filter, and save it to your photo library. You can preview the processed photo before the app saves it, and you can exit the preview to return to the camera.
+Launch the app to access the camera view. Use the shutter button to initiate the capture process with a 3-second countdown. The app captures a photo, applies a monochrome filter, and then displays it on the preview screen. The processed photo is saved to your camera roll, and you can return to the camera view by pressing the exit button on the preview screen.
 
 ## Requirements
 
 - iOS 13.0 or later
-- Xcode 11.0 or later
+- Xcode 14.0 or later
 
 ## License
 
-[Your chosen license]
-
-## Contributing
-
-Contributions to the MonotoneCamApp are welcome. Please read the contribution guidelines before submitting a pull request.
-
-## Acknowledgements
-
-This project was inspired by [any sources of inspiration]. Special thanks to [anyone you'd like to acknowledge].
-
+This project is available under the MIT License. See the LICENSE file for more information.
