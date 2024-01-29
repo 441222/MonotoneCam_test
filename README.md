@@ -30,7 +30,7 @@ Launch the app to access the camera view. Use the shutter button to initiate the
 
 ## Requirements
 
-- iOS 13.0 or later
+- iOS 14.0 or later
 - Xcode 14.0 or later
 
 ## License
